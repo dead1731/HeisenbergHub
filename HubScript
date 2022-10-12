@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Moonlight Hub", "GrapeTheme")
+local Window = Library.CreateLib("Moonlight Hub", "Sentinel")
 
 --Main
 local Main = Window:NewTab("Main")
@@ -3480,3 +3480,11 @@ FESection:NewButton("SCP 173(needs the brown hair)", "Makes you act like SCP 173
     loadstring(game:HttpGet("https://shattered-gang.lol/scripts/fe/fe_scp_173.lua"))()
 end)
 
+
+--Credits
+local Credits = Window:NewTab("Credits")
+local CreditSection = Credits:NewSection("Made by rkmx#4198 you fucktards")
+
+CreditSection:NewLabel("go use this shit how you want")
+CreditSection:NewLabel("i self-developed this shit")
+CreditSection:NewLabel("https://discord.gg/kCF7Ep6Kqt")
