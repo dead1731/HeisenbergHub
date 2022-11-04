@@ -2990,7 +2990,7 @@ end)
 
 --Credits
 local CreditTab = Window:NewTab("Credits")
-local CreditSection = CreditTab:NewSection("Made by rkmx#4198,UI is Kavo UI")
+local CreditSection = CreditTab:NewSection("Made by d3adguy#4198,UI is Kavo UI")
 
 CreditSection:NewLabel("go use this how you want")
 CreditSection:NewLabel("https://discord.gg/kCF7Ep6Kqt")
