@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Heisenberg Hub", "Midnight")
+local Window = Library.CreateLib("just a fucking script hub", "Synapse")
 
 --Main
 local Main = Window:NewTab("Main")
@@ -2990,7 +2990,7 @@ end)
 
 --Credits
 local CreditTab = Window:NewTab("Credits")
-local CreditSection = CreditTab:NewSection("Made by ! deadguy#1377,UI is Kavo UI")
+local CreditSection = CreditTab:NewSection("Made by ! dead#1377,UI is Kavo UI")
 
 CreditSection:NewLabel("go use this how you want")
 CreditSection:NewLabel("https://discord.gg/fRthUcanFc")
